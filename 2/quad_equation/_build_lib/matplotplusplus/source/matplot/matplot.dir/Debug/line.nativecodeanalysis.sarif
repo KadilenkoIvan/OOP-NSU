@@ -1,0 +1,211 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/axes_objects/line.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "2dc6c6adaa0874e4b943452611b60754c9ce45cf47cca656eebc506e09d1d619"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/axes_objects/line.h"
+          },
+          "hashes": {
+            "sha-256": "dd5c9c4175fb32303347abf8445cdfcbffe2cf251666f69e43c7ee7e768d08e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/detail/config.h"
+          },
+          "hashes": {
+            "sha-256": "ccbd3c53cd8ad497a0e0745b23ddeec7c2e48e0f74159e3daa350f3198684864"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/_build_lib/matplotplusplus/source/matplot/matplot/detail/exports.h"
+          },
+          "hashes": {
+            "sha-256": "a692f04a39e879ac84754e4c0c1216e08b03a619b543f62a15266134241c248c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/core/axes_object.h"
+          },
+          "hashes": {
+            "sha-256": "175ce32ad336ad5ed4b21a1bf1e20d7d77e12df21e0a48b263e275097c21f11f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/core/figure_type.h"
+          },
+          "hashes": {
+            "sha-256": "acdce3049bddfc6aa29b7023839d5031d4b654e65954553c967247e9ead1e108"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/backend/backend_registry.h"
+          },
+          "hashes": {
+            "sha-256": "43e7f53b60d53d84cf273b729770f000fa3cc5832c4f4bccb18de37a279add08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/backend/backend_interface.h"
+          },
+          "hashes": {
+            "sha-256": "9f272a9abe420706b4bdf622fd74e9601920fb84b1af62ecae1a45b1dbdb795b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/backend/gnuplot.h"
+          },
+          "hashes": {
+            "sha-256": "30d4b8445ed637eeb3abd99b46d8f10e450f6ed9d552857c04cf333f82016bdc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/colors.h"
+          },
+          "hashes": {
+            "sha-256": "9e8aec5e22ceab5e87b41ad0cb52fa97213f3e233bf4908e5a16f2637b02314c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/handle_types.h"
+          },
+          "hashes": {
+            "sha-256": "f4b888495d4c0e4ca5f2e325ef986ac6dffc84cf194b54abd2513ed78ca2abb1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/popen.h"
+          },
+          "hashes": {
+            "sha-256": "2f9bd75d56fa80748739cd73f6119d3e32a93d774834470676ee026ca54e1d7b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/core/line_spec.h"
+          },
+          "hashes": {
+            "sha-256": "2b1695b94f3e47d15d67d2e7dedf4f526ad95f8815ffdd34f6d6e93e27ab21ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/concepts.h"
+          },
+          "hashes": {
+            "sha-256": "57465d83a9251e9c4978f13e6a1500ac1a3e4683ed86c2c1a979e5fe5de417fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/type_traits.h"
+          },
+          "hashes": {
+            "sha-256": "2fa3285ed94e8d6accc12517880c6cab93f309713efb6f6ea232c40fa2f5a7bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/core/axes_type.h"
+          },
+          "hashes": {
+            "sha-256": "c132bfd46f56ccdd0552d7fb4c0f8503e216536604d8bcc3320c437ae921af9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/keywords.h"
+          },
+          "hashes": {
+            "sha-256": "2ea35f2e3b199f8720f1c7c1ca6c73018324e08caefecbed538416fcaa4b6e3e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/core/axis_type.h"
+          },
+          "hashes": {
+            "sha-256": "a3a8a51f7861d9c3ecde011b9aa076baeca5c9fd3e7372c4965cd5c51315b75e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/core/legend.h"
+          },
+          "hashes": {
+            "sha-256": "388c8ffd462fc6fed8ea4d09d8f817ef011e9324851ea3392d11f93c4a4e5574"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/axes_objects/error_bar.h"
+          },
+          "hashes": {
+            "sha-256": "bed61e1d9f22a0b5d83dfde0072cabf4a7b5e81dda89c6543155f108c8dfcd48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/axes_objects/function_line.h"
+          },
+          "hashes": {
+            "sha-256": "2354ed30ff37d1c36ccdc51a15d2657670f69ba87724a90756781ec64b33465c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/axes_objects/histogram.h"
+          },
+          "hashes": {
+            "sha-256": "b1c0e5f2b8ae3174bc913659a21a12e9d8bf516c3cac33c175e045e0543e324f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/common.h"
+          },
+          "hashes": {
+            "sha-256": "0c1a8e69d75d61fb535252a9cdee54bc72434f360df2b5a189946525fee18141"
+          }
+        }
+      ]
+    }
+  ]
+}

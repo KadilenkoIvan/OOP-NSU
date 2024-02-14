@@ -1,0 +1,2 @@
+﻿  bit_arr_test.cpp
+D:\Users\ivan\Desktop\C++\CMakeProjects\bit_array\bit_arr_test.cpp(87,9): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных

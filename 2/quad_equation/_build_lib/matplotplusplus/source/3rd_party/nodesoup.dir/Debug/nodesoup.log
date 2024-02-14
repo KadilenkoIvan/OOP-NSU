@@ -1,0 +1,11 @@
+﻿  Building Custom Rule D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/3rd_party/CMakeLists.txt
+  algebra.cpp
+  fruchterman_reingold.cpp
+  kamada_kawai.cpp
+  layout.cpp
+  nodesoup.cpp
+  Выполнение Code Analysis для C/C++...
+  Создание кода...
+  nodesoup.vcxproj -> D:\Users\IvanK\Desktop\ООП\quad_equation\_build_lib\matplotplusplus\source\3rd_party\Debug\nodesoup.lib
+D:\Users\IvanK\Desktop\ООП\quad_equation\lib\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.cpp(45): warning C26451: Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).
+D:\Users\IvanK\Desktop\ООП\quad_equation\lib\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.cpp(56): warning C26498: Функция "std::numeric_limits<unsigned int>::max" помечена как constexpr, пометьте переменную "infinity" как constexpr, если требуется вычисление во время компиляции (con.5).

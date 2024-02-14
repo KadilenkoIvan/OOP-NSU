@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Users\IvanK\Desktop\ООП\quad_equation\lib\matplotplusplus\source\matplot\axes_objects\</FILEPATH>
+      <FILENAME>function_line.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "matplot::function_line::t_range_" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>matplot::function_line::{ctor}</FUNCTION>
+    <DECORATED>??0function_line@matplot@@QEAA@PEAVaxes_type@1@@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>matplot::function_line::t_range_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

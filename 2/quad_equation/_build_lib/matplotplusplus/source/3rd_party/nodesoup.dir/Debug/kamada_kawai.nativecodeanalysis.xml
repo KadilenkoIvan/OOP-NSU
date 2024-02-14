@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Users\IvanK\Desktop\ООП\quad_equation\lib\matplotplusplus\source\3rd_party\nodesoup\src\</FILEPATH>
+      <FILENAME>kamada_kawai.cpp</FILENAME>
+      <LINE>45</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>nodesoup::KamadaKawai::{ctor}</FUNCTION>
+    <DECORATED>??0KamadaKawai@nodesoup@@QEAA@AEBV?$vector@V?$vector@_KV?$allocator@_K@std@@@std@@V?$allocator@V?$vector@_KV?$allocator@_K@std@@@std@@@2@@std@@NN@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Users\IvanK\Desktop\ООП\quad_equation\lib\matplotplusplus\source\3rd_party\nodesoup\src\</FILEPATH>
+      <FILENAME>kamada_kawai.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26498</DEFECTCODE>
+    <DESCRIPTION>Функция "std::numeric_limits&lt;unsigned int&gt;::max" помечена как constexpr, пометьте переменную "infinity" как constexpr, если требуется вычисление во время компиляции (con.5).</DESCRIPTION>
+    <FUNCTION>nodesoup::KamadaKawai::floyd_warshall_</FUNCTION>
+    <DECORATED>?floyd_warshall_@KamadaKawai@nodesoup@@CA?AV?$vector@V?$vector@_KV?$allocator@_K@std@@@std@@V?$allocator@V?$vector@_KV?$allocator@_K@std@@@std@@@2@@std@@AEBV34@@Z</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

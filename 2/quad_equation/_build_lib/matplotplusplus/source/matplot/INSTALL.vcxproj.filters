@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Users\IvanK\Desktop\ООП\quad_equation\_build_lib\CMakeFiles\cc19fb9e5b927258839d4ee2f682b6b8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{86B4610C-6A19-32D9-A39F-0D2DCE5D00E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

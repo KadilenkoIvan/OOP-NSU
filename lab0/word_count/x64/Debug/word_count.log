@@ -1,0 +1,15 @@
+﻿  word_count.cpp
+D:\Users\IvanK\Desktop\ООП\1\word_count\word_count.cpp(17,22): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\ООП\1\word_count\word_count.cpp(38,36): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(229,38): warning C4244: инициализация: преобразование "const _Ty2" в "_Ty2", возможна потеря данных
+          with
+          [
+              _Ty2=__int64
+          ]
+          and
+          [
+              _Ty2=int
+          ]
+D:\Users\IvanK\Desktop\ООП\1\word_count\word_count.cpp(94): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::string,int>::pair<const std::string,__int64,0>(const std::pair<const std::string,__int64> &) noexcept(false)"
+D:\Users\IvanK\Desktop\ООП\1\word_count\word_count.cpp(94): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::string,int>::pair<const std::string,__int64,0>(const std::pair<const std::string,__int64> &) noexcept(false)"
+  word_count.vcxproj -> D:\Users\IvanK\Desktop\ООП\1\word_count\x64\Debug\word_count.exe

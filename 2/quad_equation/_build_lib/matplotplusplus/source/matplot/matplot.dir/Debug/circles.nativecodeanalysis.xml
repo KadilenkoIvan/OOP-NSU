@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Users\IvanK\Desktop\ООП\quad_equation\lib\matplotplusplus\source\matplot\axes_objects\</FILEPATH>
+      <FILENAME>circles.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "matplot::circles::face_color_" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>matplot::circles::{ctor}</FUNCTION>
+    <DECORATED>??0circles@matplot@@QEAA@PEAVaxes_type@1@AEBV?$vector@NV?$allocator@N@std@@@std@@11111@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>matplot::circles::face_color_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

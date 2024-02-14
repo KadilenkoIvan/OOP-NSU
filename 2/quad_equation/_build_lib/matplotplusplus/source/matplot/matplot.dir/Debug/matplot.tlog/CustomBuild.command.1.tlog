@@ -1,0 +1,10 @@
+^D:\USERS\IVANK\DESKTOP\ООП\QUAD_EQUATION\LIB\MATPLOTPLUSPLUS\SOURCE\MATPLOT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Users/IvanK/Desktop/ООП/quad_equation/lib -BD:/Users/IvanK/Desktop/ООП/quad_equation/_build_lib --check-stamp-file D:/Users/IvanK/Desktop/ООП/quad_equation/_build_lib/matplotplusplus/source/matplot/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

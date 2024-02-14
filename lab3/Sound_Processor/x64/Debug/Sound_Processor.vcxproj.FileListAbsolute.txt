@@ -1,0 +1,2 @@
+D:\Users\IvanK\Desktop\OOP\lab2\Sound_Processor\x64\Debug\Sound_Processor.exe
+D:\Users\IvanK\Desktop\OOP\lab3\Sound_Processor\x64\Debug\Sound_Processor.exe

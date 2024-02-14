@@ -1,0 +1,25 @@
+﻿  budget.cpp
+D:\Users\IvanK\Desktop\OOP\4\budget\budget.cpp(36,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\4\budget\budget.cpp(37,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\4\budget\budget.cpp(57,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\4\budget\budget.cpp(58,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\4\budget\budget.cpp(64,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\numeric(34,26): warning C4244: =: преобразование "double" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\numeric(41): message : выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)"
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+D:\Users\IvanK\Desktop\OOP\4\budget\budget.cpp(43): message : выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(const _InIt,const _InIt,_Ty)"
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  budget.vcxproj -> D:\Users\IvanK\Desktop\OOP\4\budget\x64\Debug\budget.exe

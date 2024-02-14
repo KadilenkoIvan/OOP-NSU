@@ -1,0 +1,3085 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 297,
+                  "startColumn": 27,
+                  "endLine": 297,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::ParentCache::set_chunk_starts",
+                  "decoratedName": "?set_chunk_starts@ParentCache@matplot@@QEAAXJJ@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 530,
+                  "startColumn": 58,
+                  "endLine": 530,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 534,
+                  "startColumn": 45,
+                  "endLine": 534,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 538,
+                  "startColumn": 25,
+                  "endLine": 538,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 538,
+                  "startColumn": 45,
+                  "endLine": 538,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 538,
+                  "startColumn": 45,
+                  "endLine": 538,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 538,
+                  "startColumn": 58,
+                  "endLine": 538,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 542,
+                  "startColumn": 25,
+                  "endLine": 542,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 542,
+                  "startColumn": 45,
+                  "endLine": 542,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 542,
+                  "startColumn": 58,
+                  "endLine": 542,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 542,
+                  "startColumn": 58,
+                  "endLine": 542,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 548,
+                  "startColumn": 55,
+                  "endLine": 548,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 548,
+                  "startColumn": 68,
+                  "endLine": 548,
+                  "endColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 554,
+                  "startColumn": 55,
+                  "endLine": 554,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 554,
+                  "startColumn": 55,
+                  "endLine": 554,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 560,
+                  "startColumn": 68,
+                  "endLine": 560,
+                  "endColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 560,
+                  "startColumn": 68,
+                  "endLine": 560,
+                  "endColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 566,
+                  "startColumn": 55,
+                  "endLine": 566,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 566,
+                  "startColumn": 68,
+                  "endLine": 566,
+                  "endColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::create_contour",
+                  "decoratedName": "?create_contour@QuadContourGenerator@matplot@@QEAA?AU?$pair@V?$vector@NV?$allocator@N@std@@@std@@V12@@std@@AEBN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 734,
+                  "startColumn": 17,
+                  "endLine": 734,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::follow_boundary",
+                  "decoratedName": "?follow_boundary@QuadContourGenerator@matplot@@AEAAIAEAVContourLine@2@AEAUQuadEdge@2@AEBN2IAEBU42@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 735,
+                  "startColumn": 24,
+                  "endLine": 735,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::follow_boundary",
+                  "decoratedName": "?follow_boundary@QuadContourGenerator@matplot@@AEAAIAEAVContourLine@2@AEAUQuadEdge@2@AEBN2IAEBU42@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 730,
+                  "startColumn": 17,
+                  "endLine": 730,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::follow_boundary",
+                  "decoratedName": "?follow_boundary@QuadContourGenerator@matplot@@AEAAIAEAVContourLine@2@AEAUQuadEdge@2@AEBN2IAEBU42@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 731,
+                  "startColumn": 24,
+                  "endLine": 731,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::follow_boundary",
+                  "decoratedName": "?follow_boundary@QuadContourGenerator@matplot@@AEAAIAEAVContourLine@2@AEAUQuadEdge@2@AEBN2IAEBU42@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1237,
+                  "startColumn": 14,
+                  "endLine": 1237,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::get_quad_start_edge",
+                  "decoratedName": "?get_quad_start_edge@QuadContourGenerator@matplot@@AEBA?AW4Edge@2@JI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1237,
+                  "startColumn": 43,
+                  "endLine": 1237,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::get_quad_start_edge",
+                  "decoratedName": "?get_quad_start_edge@QuadContourGenerator@matplot@@AEBA?AW4Edge@2@JI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1237,
+                  "startColumn": 43,
+                  "endLine": 1237,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::get_quad_start_edge",
+                  "decoratedName": "?get_quad_start_edge@QuadContourGenerator@matplot@@AEBA?AW4Edge@2@JI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1238,
+                  "startColumn": 43,
+                  "endLine": 1238,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::get_quad_start_edge",
+                  "decoratedName": "?get_quad_start_edge@QuadContourGenerator@matplot@@AEBA?AW4Edge@2@JI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1378,
+                  "startColumn": 20,
+                  "endLine": 1378,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::is_edge_a_boundary",
+                  "decoratedName": "?is_edge_a_boundary@QuadContourGenerator@matplot@@AEBA_NAEBUQuadEdge@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1376,
+                  "startColumn": 20,
+                  "endLine": 1376,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::is_edge_a_boundary",
+                  "decoratedName": "?is_edge_a_boundary@QuadContourGenerator@matplot@@AEBA_NAEBUQuadEdge@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1502,
+                  "startColumn": 21,
+                  "endLine": 1502,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::move_to_next_boundary_edge",
+                  "decoratedName": "?move_to_next_boundary_edge@QuadContourGenerator@matplot@@AEBAXAEAUQuadEdge@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1495,
+                  "startColumn": 21,
+                  "endLine": 1495,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::move_to_next_boundary_edge",
+                  "decoratedName": "?move_to_next_boundary_edge@QuadContourGenerator@matplot@@AEBAXAEAUQuadEdge@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1476,
+                  "startColumn": 21,
+                  "endLine": 1476,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::move_to_next_boundary_edge",
+                  "decoratedName": "?move_to_next_boundary_edge@QuadContourGenerator@matplot@@AEBAXAEAUQuadEdge@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1476,
+                  "startColumn": 21,
+                  "endLine": 1476,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::move_to_next_boundary_edge",
+                  "decoratedName": "?move_to_next_boundary_edge@QuadContourGenerator@matplot@@AEBAXAEAUQuadEdge@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1469,
+                  "startColumn": 21,
+                  "endLine": 1469,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::move_to_next_boundary_edge",
+                  "decoratedName": "?move_to_next_boundary_edge@QuadContourGenerator@matplot@@AEBAXAEAUQuadEdge@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1462,
+                  "startColumn": 21,
+                  "endLine": 1462,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::move_to_next_boundary_edge",
+                  "decoratedName": "?move_to_next_boundary_edge@QuadContourGenerator@matplot@@AEBAXAEAUQuadEdge@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1462,
+                  "startColumn": 21,
+                  "endLine": 1462,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::move_to_next_boundary_edge",
+                  "decoratedName": "?move_to_next_boundary_edge@QuadContourGenerator@matplot@@AEBAXAEAUQuadEdge@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1462,
+                  "startColumn": 21,
+                  "endLine": 1462,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::move_to_next_boundary_edge",
+                  "decoratedName": "?move_to_next_boundary_edge@QuadContourGenerator@matplot@@AEBAXAEAUQuadEdge@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1454,
+                  "startColumn": 1,
+                  "endLine": 1454,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::move_to_next_boundary_edge",
+                  "decoratedName": "?move_to_next_boundary_edge@QuadContourGenerator@matplot@@AEBAXAEAUQuadEdge@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1454,
+                  "startColumn": 1,
+                  "endLine": 1454,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::move_to_next_boundary_edge",
+                  "decoratedName": "?move_to_next_boundary_edge@QuadContourGenerator@matplot@@AEBAXAEAUQuadEdge@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1566,
+                  "startColumn": 50,
+                  "endLine": 1566,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1572,
+                  "startColumn": 49,
+                  "endLine": 1572,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1578,
+                  "startColumn": 50,
+                  "endLine": 1578,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1584,
+                  "startColumn": 50,
+                  "endLine": 1584,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 37,
+                  "endLine": 1594,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1600,
+                  "startColumn": 37,
+                  "endLine": 1600,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1606,
+                  "startColumn": 37,
+                  "endLine": 1606,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1612,
+                  "startColumn": 37,
+                  "endLine": 1612,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1622,
+                  "startColumn": 42,
+                  "endLine": 1622,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1622,
+                  "startColumn": 55,
+                  "endLine": 1622,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1631,
+                  "startColumn": 38,
+                  "endLine": 1631,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1631,
+                  "startColumn": 64,
+                  "endLine": 1631,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1631,
+                  "startColumn": 64,
+                  "endLine": 1631,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1637,
+                  "startColumn": 38,
+                  "endLine": 1637,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1637,
+                  "startColumn": 62,
+                  "endLine": 1637,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1637,
+                  "startColumn": 62,
+                  "endLine": 1637,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1643,
+                  "startColumn": 38,
+                  "endLine": 1643,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1643,
+                  "startColumn": 64,
+                  "endLine": 1643,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1643,
+                  "startColumn": 64,
+                  "endLine": 1643,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1649,
+                  "startColumn": 38,
+                  "endLine": 1649,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1649,
+                  "startColumn": 64,
+                  "endLine": 1649,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1649,
+                  "startColumn": 64,
+                  "endLine": 1649,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1658,
+                  "startColumn": 51,
+                  "endLine": 1658,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1658,
+                  "startColumn": 64,
+                  "endLine": 1658,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1658,
+                  "startColumn": 64,
+                  "endLine": 1658,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1664,
+                  "startColumn": 50,
+                  "endLine": 1664,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1664,
+                  "startColumn": 62,
+                  "endLine": 1664,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1664,
+                  "startColumn": 62,
+                  "endLine": 1664,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1670,
+                  "startColumn": 51,
+                  "endLine": 1670,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1670,
+                  "startColumn": 64,
+                  "endLine": 1670,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1670,
+                  "startColumn": 64,
+                  "endLine": 1670,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1676,
+                  "startColumn": 51,
+                  "endLine": 1676,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1676,
+                  "startColumn": 64,
+                  "endLine": 1676,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1676,
+                  "startColumn": 64,
+                  "endLine": 1676,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1685,
+                  "startColumn": 42,
+                  "endLine": 1685,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1685,
+                  "startColumn": 55,
+                  "endLine": 1685,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1691,
+                  "startColumn": 42,
+                  "endLine": 1691,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1691,
+                  "startColumn": 54,
+                  "endLine": 1691,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1697,
+                  "startColumn": 42,
+                  "endLine": 1697,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1697,
+                  "startColumn": 55,
+                  "endLine": 1697,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1703,
+                  "startColumn": 42,
+                  "endLine": 1703,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1703,
+                  "startColumn": 55,
+                  "endLine": 1703,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1723,
+                  "startColumn": 38,
+                  "endLine": 1723,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1723,
+                  "startColumn": 51,
+                  "endLine": 1723,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1723,
+                  "startColumn": 64,
+                  "endLine": 1723,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1723,
+                  "startColumn": 64,
+                  "endLine": 1723,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1730,
+                  "startColumn": 38,
+                  "endLine": 1730,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1730,
+                  "startColumn": 50,
+                  "endLine": 1730,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1730,
+                  "startColumn": 62,
+                  "endLine": 1730,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1730,
+                  "startColumn": 62,
+                  "endLine": 1730,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1737,
+                  "startColumn": 38,
+                  "endLine": 1737,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1737,
+                  "startColumn": 51,
+                  "endLine": 1737,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1737,
+                  "startColumn": 64,
+                  "endLine": 1737,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1737,
+                  "startColumn": 64,
+                  "endLine": 1737,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1744,
+                  "startColumn": 38,
+                  "endLine": 1744,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1744,
+                  "startColumn": 51,
+                  "endLine": 1744,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1744,
+                  "startColumn": 64,
+                  "endLine": 1744,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1744,
+                  "startColumn": 64,
+                  "endLine": 1744,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1765,
+                  "startColumn": 13,
+                  "endLine": 1765,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1765,
+                  "startColumn": 57,
+                  "endLine": 1765,
+                  "endColumn": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1766,
+                  "startColumn": 13,
+                  "endLine": 1766,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1766,
+                  "startColumn": 26,
+                  "endLine": 1766,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+                },
+                "region": {
+                  "startLine": 1766,
+                  "startColumn": 26,
+                  "endLine": 1766,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "matplot::QuadContourGenerator::single_quad_filled",
+                  "decoratedName": "?single_quad_filled@QuadContourGenerator@matplot@@AEAAXAEAVContour@2@JAEBN1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5936ba044c3f36f032d7ae5a802063c392bcfe174806e5a16d7f8e936c4526d7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/axes_objects/contours.h"
+          },
+          "hashes": {
+            "sha-256": "c40e3c53e5d3fefeb1fd08f9210725b9ee879da5e3ef767f3672fb627005700a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/detail/config.h"
+          },
+          "hashes": {
+            "sha-256": "ccbd3c53cd8ad497a0e0745b23ddeec7c2e48e0f74159e3daa350f3198684864"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/_build_lib/matplotplusplus/source/matplot/matplot/detail/exports.h"
+          },
+          "hashes": {
+            "sha-256": "a692f04a39e879ac84754e4c0c1216e08b03a619b543f62a15266134241c248c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/common.h"
+          },
+          "hashes": {
+            "sha-256": "0c1a8e69d75d61fb535252a9cdee54bc72434f360df2b5a189946525fee18141"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/concepts.h"
+          },
+          "hashes": {
+            "sha-256": "57465d83a9251e9c4978f13e6a1500ac1a3e4683ed86c2c1a979e5fe5de417fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/handle_types.h"
+          },
+          "hashes": {
+            "sha-256": "f4b888495d4c0e4ca5f2e325ef986ac6dffc84cf194b54abd2513ed78ca2abb1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/type_traits.h"
+          },
+          "hashes": {
+            "sha-256": "2fa3285ed94e8d6accc12517880c6cab93f309713efb6f6ea232c40fa2f5a7bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/contourc.h"
+          },
+          "hashes": {
+            "sha-256": "0799a70cc535ebdadf77eb88e1e5233858348deb8a7e1faa6b096ff400f32d21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/core/axes_type.h"
+          },
+          "hashes": {
+            "sha-256": "c132bfd46f56ccdd0552d7fb4c0f8503e216536604d8bcc3320c437ae921af9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/colors.h"
+          },
+          "hashes": {
+            "sha-256": "9e8aec5e22ceab5e87b41ad0cb52fa97213f3e233bf4908e5a16f2637b02314c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/keywords.h"
+          },
+          "hashes": {
+            "sha-256": "2ea35f2e3b199f8720f1c7c1ca6c73018324e08caefecbed538416fcaa4b6e3e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/core/axis_type.h"
+          },
+          "hashes": {
+            "sha-256": "a3a8a51f7861d9c3ecde011b9aa076baeca5c9fd3e7372c4965cd5c51315b75e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/core/legend.h"
+          },
+          "hashes": {
+            "sha-256": "388c8ffd462fc6fed8ea4d09d8f817ef011e9324851ea3392d11f93c4a4e5574"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/core/line_spec.h"
+          },
+          "hashes": {
+            "sha-256": "2b1695b94f3e47d15d67d2e7dedf4f526ad95f8815ffdd34f6d6e93e27ab21ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/axes_objects/error_bar.h"
+          },
+          "hashes": {
+            "sha-256": "bed61e1d9f22a0b5d83dfde0072cabf4a7b5e81dda89c6543155f108c8dfcd48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/axes_objects/line.h"
+          },
+          "hashes": {
+            "sha-256": "dd5c9c4175fb32303347abf8445cdfcbffe2cf251666f69e43c7ee7e768d08e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/core/axes_object.h"
+          },
+          "hashes": {
+            "sha-256": "175ce32ad336ad5ed4b21a1bf1e20d7d77e12df21e0a48b263e275097c21f11f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/core/figure_type.h"
+          },
+          "hashes": {
+            "sha-256": "acdce3049bddfc6aa29b7023839d5031d4b654e65954553c967247e9ead1e108"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/backend/backend_registry.h"
+          },
+          "hashes": {
+            "sha-256": "43e7f53b60d53d84cf273b729770f000fa3cc5832c4f4bccb18de37a279add08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/backend/backend_interface.h"
+          },
+          "hashes": {
+            "sha-256": "9f272a9abe420706b4bdf622fd74e9601920fb84b1af62ecae1a45b1dbdb795b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/backend/gnuplot.h"
+          },
+          "hashes": {
+            "sha-256": "30d4b8445ed637eeb3abd99b46d8f10e450f6ed9d552857c04cf333f82016bdc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/util/popen.h"
+          },
+          "hashes": {
+            "sha-256": "2f9bd75d56fa80748739cd73f6119d3e32a93d774834470676ee026ca54e1d7b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/axes_objects/function_line.h"
+          },
+          "hashes": {
+            "sha-256": "2354ed30ff37d1c36ccdc51a15d2657670f69ba87724a90756781ec64b33465c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/matplot/axes_objects/histogram.h"
+          },
+          "hashes": {
+            "sha-256": "b1c0e5f2b8ae3174bc913659a21a12e9d8bf516c3cac33c175e045e0543e324f"
+          }
+        }
+      ]
+    }
+  ]
+}

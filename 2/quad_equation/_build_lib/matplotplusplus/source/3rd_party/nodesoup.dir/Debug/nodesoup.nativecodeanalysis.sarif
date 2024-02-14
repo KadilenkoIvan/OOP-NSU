@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/src/nodesoup.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "acdac4b06b3e736e111a25d1a9072d77d4a5e93983527e1dd2cf82bd3714d98c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/include/nodesoup.hpp"
+          },
+          "hashes": {
+            "sha-256": "e53d4d6f515e801758c333ea1be27c83291788af6e62e60469c6c1d96fa27a0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.hpp"
+          },
+          "hashes": {
+            "sha-256": "40231ebbf11b8be809071f7c950e93c6289195907bc64a2a537b96ff8d2af81f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.hpp"
+          },
+          "hashes": {
+            "sha-256": "2750f16975415c9ff274f69e6f530cd1dc2da0393e1ee3cf8bbbb0c43136e7bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/src/layout.hpp"
+          },
+          "hashes": {
+            "sha-256": "755ddd0beca23b019244da1942c68b69ec8d7846a6228de274efec5bdf327d3e"
+          }
+        }
+      ]
+    }
+  ]
+}

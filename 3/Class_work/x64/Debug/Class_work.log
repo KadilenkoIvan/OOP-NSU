@@ -1,0 +1,4 @@
+﻿  Class_work.cpp
+D:\Users\IvanK\Desktop\ООП\3\Class_work\Class_work.cpp(90,23): warning C4101: ex: неиспользованная локальная переменная
+D:\Users\IvanK\Desktop\ООП\3\Class_work\Class_work.cpp(118,23): warning C4101: ex: неиспользованная локальная переменная
+  Class_work.vcxproj -> D:\Users\IvanK\Desktop\ООП\3\Class_work\x64\Debug\Class_work.exe

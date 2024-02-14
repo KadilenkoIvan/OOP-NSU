@@ -1,0 +1,8 @@
+D:\Users\ivan\Desktop\C++\CMakeProjects\bit_array_test\x64\Debug\bit_array_test.vcxproj.CopyComplete
+D:\Users\ivan\Desktop\C++\CMakeProjects\bit_array_test\x64\Debug\bit_array_test.exe
+D:\Users\ivan\Desktop\C++\CMakeProjects\bit_array_test\x64\Debug\gtest.pdb
+D:\Users\ivan\Desktop\C++\CMakeProjects\bit_array_test\x64\Debug\gtest_main.pdb
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array_test\x64\Debug\bit_array_test.vcxproj.CopyComplete
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array_test\x64\Debug\bit_array_test.exe
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array_test\x64\Debug\gtest.pdb
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array_test\x64\Debug\gtest_main.pdb

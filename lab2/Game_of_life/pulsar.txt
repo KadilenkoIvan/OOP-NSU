@@ -1,0 +1,7 @@
+#Life 1.06
+#N Reverce Glider
+#R B3/S23
+50 25
+10 10
+10 11
+10 12

@@ -1,0 +1,6 @@
+mute 0 4
+mix $2 2
+mute 10 15
+mix $2 8
+crop 7 9
+#-c config.txt "Sound Processor Example Music/out/OUT.wav" "Sound Processor Example Music/district_four.wav" "Sound Processor Example Music/funkorama.wav" "Sound Processor Example Music/severe_tire_damage.wav"

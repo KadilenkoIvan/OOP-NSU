@@ -1,0 +1,10 @@
+﻿  Проверка источников на наличие зависимостей модуля…
+  module2.ixx
+  module1.ixx
+  Компиляция…
+  module1.ixx
+  module2.ixx
+D:\Users\IvanK\Desktop\OOP\5\HW\module1.ixx(2,22): warning C5201: объявление модуля может располагаться только в начале единицы трансляции, если только не используется фрагмент глобального модуля
+D:\Users\IvanK\Desktop\OOP\5\HW\module2.ixx(2,22): warning C5201: объявление модуля может располагаться только в начале единицы трансляции, если только не используется фрагмент глобального модуля
+  main.cpp
+  HW.vcxproj -> D:\Users\IvanK\Desktop\OOP\5\HW\x64\Debug\HW.exe

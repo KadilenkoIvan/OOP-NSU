@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "bc67c82a3e2882484c4eda622b2a0647cc7b0cb611d1a0a5913212ea0d2ea3bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.hpp"
+          },
+          "hashes": {
+            "sha-256": "40231ebbf11b8be809071f7c950e93c6289195907bc64a2a537b96ff8d2af81f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/include/nodesoup.hpp"
+          },
+          "hashes": {
+            "sha-256": "e53d4d6f515e801758c333ea1be27c83291788af6e62e60469c6c1d96fa27a0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/src/algebra.hpp"
+          },
+          "hashes": {
+            "sha-256": "cbb74be72e26a440bb8d724e962266decdf1534fd083721dc82c04c772ce5b34"
+          }
+        }
+      ]
+    }
+  ]
+}

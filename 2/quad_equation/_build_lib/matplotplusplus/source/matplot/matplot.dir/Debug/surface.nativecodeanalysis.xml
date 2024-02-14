@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Users\IvanK\Desktop\ООП\quad_equation\lib\matplotplusplus\source\matplot\axes_objects\</FILEPATH>
+      <FILENAME>surface.cpp</FILENAME>
+      <LINE>335</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>6287</DEFECTCODE>
+    <DESCRIPTION>Избыточный код.</DESCRIPTION>
+    <FUNCTION>matplot::surface::plot_string</FUNCTION>
+    <DECORATED>?plot_string@surface@matplot@@UEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ</DECORATED>
+    <FUNCLINE>250</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Users\IvanK\Desktop\ООП\quad_equation\lib\matplotplusplus\source\matplot\axes_objects\</FILEPATH>
+      <FILENAME>surface.cpp</FILENAME>
+      <LINE>361</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "+" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "+", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>matplot::surface::grid_data_string</FUNCTION>
+    <DECORATED>?grid_data_string@surface@matplot@@IEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ</DECORATED>
+    <FUNCLINE>351</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

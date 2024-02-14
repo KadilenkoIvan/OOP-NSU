@@ -1,0 +1,13 @@
+﻿  boost.cpp
+C:\boost_1_84_0\boost\unordered\detail\implementation.hpp(725,18): error C2039: "forward_as_tuple": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(40): message : см. объявление "std"
+C:\boost_1_84_0\boost\unordered\detail\implementation.hpp(726,18): error C2039: "forward_as_tuple": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(40): message : см. объявление "std"
+C:\boost_1_84_0\boost\unordered\detail\implementation.hpp(746,18): error C2039: "forward_as_tuple": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(40): message : см. объявление "std"
+C:\boost_1_84_0\boost\unordered\detail\implementation.hpp(747,18): error C2039: "forward_as_tuple": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(40): message : см. объявление "std"
+C:\boost_1_84_0\boost\unordered\detail\implementation.hpp(767,18): error C2039: "forward_as_tuple": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(40): message : см. объявление "std"
+C:\boost_1_84_0\boost\unordered\detail\implementation.hpp(768,18): error C2039: "forward_as_tuple": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(40): message : см. объявление "std"

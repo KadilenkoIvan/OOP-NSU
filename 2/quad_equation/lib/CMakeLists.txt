@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.15)
+project(lib)
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/externals/gnuplot-iostream")
+add_subdirectory(matplotplusplus)
+add_subdirectory(program_graph)

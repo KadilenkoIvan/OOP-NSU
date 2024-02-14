@@ -1,0 +1,10 @@
+File
+streams
+Header providing file stream classes:
+Class templates
+basic_ifstream	Input file stream (class template)
+basic_ofstream	Output file stream (class template)
+basic_fstream	File stream (class template)
+basic_filebuf	File stream buffer (class template)
+
+Classes

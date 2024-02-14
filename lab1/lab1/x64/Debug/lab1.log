@@ -1,0 +1,7 @@
+﻿  lab1.cpp
+  The contents of <span> are available only with C++20 or later.
+D:\Users\IvanK\Desktop\OOP\lab1\lab1\lab1.cpp(74,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\lab1\lab1\lab1.cpp(89,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\lab1\lab1\lab1.cpp(117,1): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\lab1\lab1\lab1.cpp(301,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  lab1.vcxproj -> D:\Users\IvanK\Desktop\OOP\lab1\lab1\x64\Debug\lab1.exe

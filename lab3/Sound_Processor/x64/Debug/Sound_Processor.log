@@ -1,0 +1,8 @@
+﻿  Sound_Processor.cpp
+D:\Users\IvanK\Desktop\OOP\lab3\Sound_Processor\Sound_Processor.cpp(141,44): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Users\IvanK\Desktop\OOP\lab3\Sound_Processor\Sound_Processor.cpp(169,44): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Users\IvanK\Desktop\OOP\lab3\Sound_Processor\Sound_Processor.cpp(192,44): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Users\IvanK\Desktop\OOP\lab3\Sound_Processor\Sound_Processor.cpp(196,44): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Users\IvanK\Desktop\OOP\lab3\Sound_Processor\Sound_Processor.cpp(289,22): warning C4129: C: неизвестная escape-последовательность
+  LINK : не найден или не выполнена сборка D:\Users\IvanK\Desktop\OOP\lab3\Sound_Processor\x64\Debug\Sound_Processor.exe при последней инкрементной компоновке; выполняется полная компоновка
+  Sound_Processor.vcxproj -> D:\Users\IvanK\Desktop\OOP\lab3\Sound_Processor\x64\Debug\Sound_Processor.exe

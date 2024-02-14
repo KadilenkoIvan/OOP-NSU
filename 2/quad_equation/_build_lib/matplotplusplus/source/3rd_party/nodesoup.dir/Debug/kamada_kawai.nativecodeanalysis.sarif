@@ -1,0 +1,117 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 40,
+                  "endLine": 45,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nodesoup::KamadaKawai::{ctor}",
+                  "decoratedName": "??0KamadaKawai@nodesoup@@QEAA@AEBV?$vector@V?$vector@_KV?$allocator@_K@std@@@std@@V?$allocator@V?$vector@_KV?$allocator@_K@std@@@std@@@2@@std@@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "Функция \"std::numeric_limits<unsigned int>::max\" помечена как constexpr, пометьте переменную \"infinity\" как constexpr, если требуется вычисление во время компиляции (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 18,
+                  "endLine": 56,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nodesoup::KamadaKawai::floyd_warshall_",
+                  "decoratedName": "?floyd_warshall_@KamadaKawai@nodesoup@@CA?AV?$vector@V?$vector@_KV?$allocator@_K@std@@@std@@V?$allocator@V?$vector@_KV?$allocator@_K@std@@@std@@@2@@std@@AEBV34@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Users/IvanK/Desktop/ООП/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f42653edb224786ff6c1b80a22cda13afb7a4fdd37d7d09f4f1048dd4c6eeb08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/src/algebra.hpp"
+          },
+          "hashes": {
+            "sha-256": "cbb74be72e26a440bb8d724e962266decdf1534fd083721dc82c04c772ce5b34"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/include/nodesoup.hpp"
+          },
+          "hashes": {
+            "sha-256": "e53d4d6f515e801758c333ea1be27c83291788af6e62e60469c6c1d96fa27a0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/ivank/desktop/ооп/quad_equation/lib/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.hpp"
+          },
+          "hashes": {
+            "sha-256": "2750f16975415c9ff274f69e6f530cd1dc2da0393e1ee3cf8bbbb0c43136e7bb"
+          }
+        }
+      ]
+    }
+  ]
+}

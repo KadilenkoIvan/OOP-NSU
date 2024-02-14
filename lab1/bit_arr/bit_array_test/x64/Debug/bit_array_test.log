@@ -1,0 +1,13 @@
+﻿  test.cpp
+  The contents of <span> are available only with C++20 or later.
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array\bit_array.cpp(98,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array\bit_array.cpp(120,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array\bit_array.cpp(149,1): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array\bit_array.cpp(222,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array\bit_array.cpp(231,1): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array\bit_array.cpp(236,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array\bit_array.cpp(268,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array\bit_array.cpp(276,1): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array\bit_array.cpp(289,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array\bit_array.cpp(428,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  bit_array_test.vcxproj -> D:\Users\IvanK\Desktop\OOP\lab1\bit_arr\bit_array_test\x64\Debug\bit_array_test.exe

@@ -1,0 +1,10 @@
+^D:\USERS\IVANK\DESKTOP\ООП\QUAD_EQUATION\_BUILD_LIB\CMAKEFILES\A669EC508FE8001E3248A31B080A6653\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Users/IvanK/Desktop/ООП/quad_equation/lib -BD:/Users/IvanK/Desktop/ООП/quad_equation/_build_lib --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Users/IvanK/Desktop/ООП/quad_equation/_build_lib/lib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

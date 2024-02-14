@@ -1,0 +1,5 @@
+﻿  ini.cpp
+D:\Users\IvanK\Desktop\OOP\10\INI\ini.cpp(56,28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  main.cpp
+  Создание кода...
+  INI.vcxproj -> D:\Users\IvanK\Desktop\OOP\10\INI\x64\Debug\INI.exe

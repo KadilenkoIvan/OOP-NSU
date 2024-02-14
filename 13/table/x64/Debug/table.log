@@ -1,0 +1,6 @@
+﻿  table.cpp
+D:\Users\IvanK\Desktop\OOP\13\table\table.cpp(37,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\OOP\13\table\table.cpp(36): message : во время компиляции функции-члена класс шаблон "int Matrix<int,-1>::get_size(void)"
+D:\Users\IvanK\Desktop\OOP\13\table\table.cpp(47): message : выполняется компиляция ссылки на экземпляр шаблон функции "int Matrix<int,-1>::get_size(void)"
+D:\Users\IvanK\Desktop\OOP\13\table\table.cpp(46): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Matrix<int,-1>"
+  table.vcxproj -> D:\Users\IvanK\Desktop\OOP\13\table\x64\Debug\table.exe
